@@ -9,7 +9,7 @@ from logger import get_logger
 
 logger = get_logger(__name__)
 
-load_dotenv(Path(__file__).resolve().parent.parent / ".env")
+load_dotenv(Path(__file__).resolve().parent / ".env")
 
 URL = (
     f"postgresql://{os.getenv('POSTGRES_USER')}:"

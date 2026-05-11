@@ -1,0 +1,16 @@
+2026-05-10 16:59:09,990 - INFO - Database connection opened
+2026-05-10 16:59:09,992 - INFO - Deleting customer #3
+2026-05-10 16:59:09,992 - INFO - Reading customer #3
+2026-05-10 16:59:10,007 - ERROR - Database error: 404: Not Found
+2026-05-10 16:59:10,009 - INFO - Database connection closed
+2026-05-10 16:59:49,097 - INFO - Database connection opened
+2026-05-10 16:59:49,098 - INFO - Deleting customer #3
+2026-05-10 16:59:49,098 - INFO - Reading customer #3
+2026-05-10 16:59:49,102 - ERROR - Database error: 404: Not Found
+2026-05-10 16:59:49,103 - INFO - Database connection closed
+2026-05-11 19:24:47,351 - INFO - Database connection opened
+2026-05-11 19:24:47,352 - INFO - Reading customers: skip=0, limit=100
+2026-05-11 19:24:47,359 - INFO - Database connection closed
+2026-05-11 20:41:36,963 - INFO - Database connection opened
+2026-05-11 20:41:36,964 - INFO - Reading customers: skip=0, limit=100
+2026-05-11 20:41:36,983 - INFO - Database connection closed
