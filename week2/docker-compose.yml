@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:15-alpine        # official PostgreSQL image:
+    container_name: postgres_week2
+    restart: always
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
+    ports:
+      - "${POSTGRES_PORT}:5432"
+    volumes:
+      - ./seed.sql:/docker-entrypoint-initdb.d/seed.sql      #takes our .sql file and keeps it in a special location where PostgreSQL looks for setup scripts.
+      - pgdata:/var/lib/postgresql/data                        #keeps tables and records safe on hard drive.
+volumes:
+  pgdata:
